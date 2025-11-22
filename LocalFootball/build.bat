@@ -1,0 +1,1 @@
+zig cc -O3 -s main.c -I../raylib/include -L../raylib/lib -lraylib -lgdi32 -lwinmm -o ./game.exe
